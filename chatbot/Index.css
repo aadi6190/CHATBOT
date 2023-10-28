@@ -1,0 +1,117 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up base font and background */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Header styles */
+header {
+    background-color: #0099cc;
+    color: #fff;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 5px;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+/* Hero section styles */
+.hero {
+    background: linear-gradient(to right, #0099cc, #0077aa); /* Updated hero background gradient */
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #0099cc; /* Updated button background color */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0077aa; /* Updated button hover color */
+}
+
+/* Additional styles for other sections of your landing page can be added here */
+
+/* Reset default link styles */
+a {
+    text-decoration: none;
+    color: #0099cc;
+}
+.pricing{
+    display: flex;
+    height: 50PX;
+}
+.features>:nth-child(1){
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.contact{
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer styles (if applicable) */
+
+footer {
+    background-color: #0099cc; /* Updated footer background color */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
